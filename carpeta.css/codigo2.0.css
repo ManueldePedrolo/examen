@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.principal{
+    background-image: url("https://s3-alpha-sig.figma.com/img/e51b/a383/23c939d7a450c1f0e2158b7eb8467c94?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gQE6PCmJAbOmZzVzxAsAjVoNPHd379gguWl-YmyHSQ4RcSTgDIVHqOA1TzpYP1HX7SCWB5SgCmq6G3GW7FybbAVmYcdONzhf8YHwVRe41CBwV8tTCRXP9j~H~sgHt5iXNGmi5nKDK4-LRdzowX9yBZA8JFeGJpsihzX4Ft-H77en3ogJKozRy9l4qeFXMWx~qjZ94K4v-f211aw1XkfZ8otFQJbwQhT-xgBIoctTPKIoNf4T1m4Ty6je9sUChLnBDJ9zFfXUdxjlbIwsIMjU5HK19w2c4lqof~kDL6WfCKNU2UVY2qdNAGvjEportcAkvtV-PfrBed3c0BjO-XHiVQ__");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  
+}
+.arriba{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap: 3rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    height: 10vh;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+}
+.arriba a{
+    text-decoration: none;
+    margin-top: 3rem;
+}
+.curso{
+    display: row;
+    flex-direction: center;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+.curs{
+    margin-top: 1rem;
+}
+.explicacion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.subprincipal{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+    gap:3rem;
+}
+.cuadrado1{
+    border: 2px solid black;
+    background-color: white;
+    gap:3rem;
+
+}
+.cuadrado3{
+    border: 3px solid black;
+    background-color: white;
+
+}
+.cuadrado2{
+    border: 2px solid black;
+    background-color: white;
+
+}
+.cuadrado1 img{
+    height: 200px;
+    width: 100%;
+    size: cover;
+}
+.cuadrado2{
+    border: 2px white black;
+    background-color: white;
+
+}
+.cuadrado2 img{
+    height: 200px;
+    width: 100%;
+    size: cover;
+}
+.cuadrado3{
+    border: 2px white black;
+    background-color: white;
+
+}
+.cuadrado3 img{
+    height: 200px;
+    width: 100%;
+    size: cover;
+}
+.resto{
+    color: black;
+}
